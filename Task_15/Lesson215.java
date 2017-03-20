@@ -2,14 +2,14 @@ package by.epam.lesson2.homework;
 
 import java.util.Scanner;
 
-public class Lesson215 {
+public class Lesson215 {// Наталья, форматируйте, пожалуйсста код. А то его очень трудно читать
 	public static void main(String[] args){
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		double a, b, f = 0, x, h;
 		
-		System.out.print("Введите значение a: "); 
+		System.out.print("Введите значение a: "); // ввод следовало оформить отдельным методом, а то получается очень много дублирования
         if (sc.hasNextDouble()){
 		a = sc.nextDouble();
 		
